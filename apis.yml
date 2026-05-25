@@ -1,0 +1,130 @@
+aid: etherfi
+name: ether.fi
+description: >-
+  ether.fi is a non-custodial, decentralized Ethereum liquid restaking
+  protocol where stakers retain control of their validator keys. Users
+  deposit ETH to mint eETH, a rebasing liquid restaking token (LRT), or
+  wrap it into weETH, the non-rebasing ERC-20 used across DeFi and
+  bridged cross-chain via LayerZero to networks including Arbitrum,
+  Optimism, Base, Linea, Mode, Scroll, BNB Chain, Blast, Mantle, and
+  Solana. Beyond ETH liquid restaking, ether.fi has expanded into eBTC
+  (Bitcoin restaking) and eUSD (stablecoin restaking), Liquid auto-
+  balancing strategy vaults, the ether.fi Cash non-custodial credit
+  card with cashback, "The Club" membership tier program, and an AVS
+  operator stack that runs services on EigenLayer, Symbiotic, and Karak.
+  The protocol is governed by the ETHFI token via governance.ether.fi.
+  ether.fi has no public REST API or developer SDK — its public
+  surface is on-chain: open-source Solidity smart contracts on
+  Ethereum mainnet (eETH, weETH, LiquidityPool, EtherFiNodesManager,
+  EtherFiOracle, MembershipManager, ETHFI), cross-chain bridge
+  contracts (weETH-cross-chain via LayerZero, ETHFI via Wormhole NTT),
+  AVS operator contracts, plus operator tooling (etherfi-avs-operator,
+  eigenpod-proofs-generation) and a public subgraph indexing protocol
+  events. ether.fi is one of the largest LRT protocols by TVL with deep
+  integrations across Aave, Pendle, Gearbox, Morpho, and other DeFi
+  venues.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Ethereum
+  - Liquid Restaking
+  - Liquid Staking
+  - Restaking
+  - LRT
+  - EigenLayer
+  - Symbiotic
+  - Karak
+  - DeFi
+  - Smart Contracts
+  - eETH
+  - weETH
+  - eBTC
+  - eUSD
+  - ETHFI
+  - AVS
+  - LayerZero
+  - Cross-Chain
+  - Cash Card
+  - Liquid Vaults
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/etherfi/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.ether.fi
+  - type: App
+    url: https://app.ether.fi
+  - type: Stake
+    url: https://www.ether.fi/stake
+  - type: Restake
+    url: https://www.ether.fi/restake
+  - type: Liquid
+    url: https://www.ether.fi/liquid
+  - type: Cash
+    url: https://www.ether.fi/cash
+  - type: Club
+    url: https://www.ether.fi/the-club
+  - type: Institutional
+    url: https://www.ether.fi/institutional
+  - type: Documentation
+    url: https://etherfi.gitbook.io/etherfi
+  - type: TechnicalDocumentation
+    url: https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper/technical-documentation
+  - type: Contracts
+    url: https://etherfi.gitbook.io/etherfi/contracts-and-integrations/contracts
+  - type: Integrations
+    url: https://etherfi.gitbook.io/etherfi/contracts-and-integrations/integrations
+  - type: NodeOperators
+    url: https://etherfi.gitbook.io/etherfi/node-operators/node-operators-guide
+  - type: HelpCenter
+    url: https://help.ether.fi
+  - type: Governance
+    url: https://governance.ether.fi
+  - type: GitHubOrganization
+    url: https://github.com/etherfi-protocol
+  - type: OpenSource
+    url: https://github.com/etherfi-protocol/smart-contracts
+  - type: BugBounty
+    url: https://immunefi.com/bug-bounty/etherfi/
+  - type: DefiLlama
+    url: https://defillama.com/protocol/ether.fi
+  - type: Dune
+    url: https://dune.com/etherfi_team/etherfi
+  - type: Twitter
+    url: https://twitter.com/ether_fi
+  - type: Discord
+    url: https://discord.gg/ether-fi
+  - type: Medium
+    url: https://medium.com/etherfi
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ether-fi
+  - type: Features
+    data:
+      - Non-custodial Ethereum liquid restaking — stakers retain validator keys
+      - eETH rebasing liquid restaking token (LRT)
+      - weETH non-rebasing ERC-20 wrapped version of eETH used across DeFi
+      - eBTC Bitcoin restaking token
+      - eUSD stablecoin restaking token
+      - Liquid auto-balancing strategy vaults
+      - ether.fi Cash non-custodial Visa credit card with cashback
+      - The Club tiered membership and financial services program
+      - Native restaking integration with EigenLayer, Symbiotic, and Karak
+      - AVS operator infrastructure (etherfi-avs-operator) running services on top of restaked ETH
+      - Cross-chain weETH via LayerZero on Arbitrum, Optimism, Base, Linea, Mode, Scroll, BNB Chain, Blast, Mantle, Solana
+      - ETHFI governance token (cross-chain via Wormhole NTT)
+      - Membership NFTs and loyalty points program
+      - Distributed Validator Technology (DVT) via SSV Network
+      - EigenPod proof generation tooling (Go)
+      - EtherFiOracle off-chain oracle for validator state and rewards
+      - Public subgraph indexing protocol contract events
+      - Deep DeFi integrations with Aave, Pendle, Gearbox, Morpho, Curve, Balancer, Uniswap
+      - Audited by CertiK, Certora, Hats Finance, Nethermind, Omniscia, Solidified
+      - Open-source under MIT license on GitHub (etherfi-protocol)
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
