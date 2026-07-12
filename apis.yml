@@ -55,6 +55,8 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/etherfi-domain-security.yml
   - type: Website
     url: https://www.ether.fi
   - type: App
@@ -103,6 +105,8 @@ common:
     url: https://medium.com/etherfi
   - type: LinkedIn
     url: https://www.linkedin.com/company/ether-fi
+  - type: Blog
+    url: https://medium.com/feed/etherfi
   - type: Features
     data:
       - Non-custodial Ethereum liquid restaking — stakers retain validator keys
