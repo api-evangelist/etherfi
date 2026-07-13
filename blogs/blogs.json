@@ -1,0 +1,18 @@
+{
+  "repo": "etherfi",
+  "feeds": [
+    {
+      "source": "https://medium.com/feed/etherfi",
+      "feed_url": "https://medium.com/feed/etherfi",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.linkedin.com/company/ether-fi",
+      "error": "HTTPError"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 10
+}
