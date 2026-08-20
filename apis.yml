@@ -59,6 +59,28 @@ tags:
   - Cross-Chain
   - Cash Card
   - Liquid Vaults
+  - Open-Source
+tags_raw:
+  - Ethereum
+  - Liquid Restaking
+  - Liquid Staking
+  - Restaking
+  - LRT
+  - EigenLayer
+  - Symbiotic
+  - Karak
+  - DeFi
+  - Smart Contracts
+  - eETH
+  - weETH
+  - eBTC
+  - eUSD
+  - ETHFI
+  - AVS
+  - LayerZero
+  - Cross-Chain
+  - Cash Card
+  - Liquid Vaults
   - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/etherfi/refs/heads/main/apis.yml
 created: '2026-05-24'
