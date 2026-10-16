@@ -2,10 +2,6 @@
   "repo": "etherfi",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/ether-fi",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://medium.com/feed/etherfi",
       "feed_url": "https://medium.com/feed/etherfi",
       "title": "",
@@ -13,7 +9,7 @@
       "method": "feed"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 10,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
