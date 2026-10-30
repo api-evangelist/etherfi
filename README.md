@@ -1,4 +1,4 @@
-# etherfi
+# ether.fi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ether.fi — Ethereum liquid restaking protocol (eETH/weETH; native restaking via EigenLayer)
+ether.fi is a non-custodial, decentralized Ethereum liquid restaking protocol where stakers retain control of their validator keys. Users deposit ETH to mint eETH, a rebasing liquid restaking token (LRT), or wrap it into weETH, the non-rebasing ERC-20 used across DeFi and bridged cross-chain via LayerZero to networks including Arbitrum, Optimism, Base, Linea, Mode, Scroll, BNB Chain, Blast, Mantle, and Solana. Beyond ETH liquid restaking, ether.fi has expanded into eBTC (Bitcoin restaking) and eUSD (stablecoin restaking), Liquid auto- balancing strategy vaults, the ether.fi Cash non-custodial credit card with cashback, "The Club" membership tier program, and an AVS operator stack that runs services on EigenLayer, Symbiotic, and Karak. The protocol is governed by the ETHFI token via governance.ether.fi. ether.fi has no public REST API or developer SDK — its public surface is on-chain: open-source Solidity smart contracts on Ethereum mainnet (eETH, weETH, LiquidityPool, EtherFiNodesManager, EtherFiOracle, MembershipManager, ETHFI), cross-chain bridge contracts (weETH-cross-chain via LayerZero, ETHFI via Wormhole NTT), AVS operator contracts, plus operator tooling (etherfi-avs-operator, eigenpod-proofs-generation) and a public subgraph indexing protocol events. ether.fi is one of the largest LRT protocols by TVL with deep integrations across Aave, Pendle, Gearbox, Morpho, and other DeFi venues.
+
+**Areas:** Ethereum · Liquid Restaking · Liquid Staking · Restaking · LRT · EigenLayer · Symbiotic · Karak · DeFi · Smart Contracts · eETH · weETH
+
+## ether.fi on APIs.io
+
+Everything profiled for ether.fi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/etherfi/](https://apis.io/providers/etherfi/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [etherfi](https://apis.io/servers/etherfi/etherfi/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Etherfi Domain Security](https://apis.io/security/etherfi/etherfi-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ether.fi)
+- [Documentation](https://etherfi.gitbook.io/etherfi)
+- [Blog](https://medium.com/feed/etherfi)
+- [GitHub](https://github.com/etherfi-protocol)
+
+## API Evangelist rating
+
+**Kin Score 6.7** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/etherfi/](https://apis.io/providers/etherfi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ether.fi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/etherfi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
